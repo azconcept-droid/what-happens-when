@@ -240,13 +240,13 @@ However, this process typically happens behind the scenes, and the end-user does
 
 The order in which these IP addresses are returned can vary depending on several factors:
 
-   **DNS Server Configuration** : The DNS server can be configured to return IP addresses in a specific order. For example, it may prioritize servers based on their proximity to the DNS resolver or based on predefined rules.
+**DNS Server Configuration** : The DNS server can be configured to return IP addresses in a specific order. For example, it may prioritize servers based on their proximity to the DNS resolver or based on predefined rules.
 
-   **Load Balancer Configuration**: If the domain is using a load balancer, the load balancer may influence the order in which IP addresses are returned. It may prioritize healthy servers or distribute the load evenly across servers.
+**Load Balancer Configuration**: If the domain is using a load balancer, the load balancer may influence the order in which IP addresses are returned. It may prioritize healthy servers or distribute the load evenly across servers.
 
-   **Geographical Considerations**: Some DNS servers consider the geographical location of the client and may prioritize IP addresses of servers that are closer to the client.
+**Geographical Considerations**: Some DNS servers consider the geographical location of the client and may prioritize IP addresses of servers that are closer to the client.
 
-   **DNS Cache**: DNS resolvers often cache DNS records for a certain period of time. If a DNS resolver has cached the IP addresses for a domain, it may return the cached list of IP addresses in the order they were originally retrieved, regardless of any changes made on the authoritative DNS server.
+**DNS Cache**: DNS resolvers often cache DNS records for a certain period of time. If a DNS resolver has cached the IP addresses for a domain, it may return the cached list of IP addresses in the order they were originally retrieved, regardless of any changes made on the authoritative DNS server.
 
 
 ARP process
